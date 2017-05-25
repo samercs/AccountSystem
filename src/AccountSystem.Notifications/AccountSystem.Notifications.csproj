@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>AccountSystem.Notifications</AssemblyName>
+    <PackageId>AccountSystem.Notifications</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountSystem.Data\AccountSystem.Data.csproj" />
+    <ProjectReference Include="..\AccountSystem.Entities\AccountSystem.Entities.csproj" />
+    <ProjectReference Include="..\AccountSystem.Services\AccountSystem.Services.csproj" />
+    <ProjectReference Include="..\OrangeJetpack.Services.Client\OrangeJetpack.Services.Client.csproj" />
+  </ItemGroup>
+
+</Project>
