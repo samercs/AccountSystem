@@ -1,9 +1,9 @@
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AccountSystem.Authorization;
-using Microsoft.AccountSystem.Identity;
-using Microsoft.AccountSystem.Identity.EntityFrameworkCore;
-using Microsoft.AccountSystem.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using OrangeJetpack.Localization;
 using AccountSystem.Core.Identity;

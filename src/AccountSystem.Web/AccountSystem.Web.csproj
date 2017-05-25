@@ -32,15 +32,15 @@
   <ItemGroup>
     <PackageReference Include="BundlerMinifier.Core" Version="2.2.306" />
     <PackageReference Include="Humanizer.xproj" Version="2.1.0" />
-    <PackageReference Include="Microsoft.AccountSystem.Diagnostics" Version="1.1.1" />
-    <PackageReference Include="Microsoft.AccountSystem.Mvc" Version="1.1.2" />
-    <PackageReference Include="Microsoft.AccountSystem.Mvc.Razor" Version="1.1.2" />
-    <PackageReference Include="Microsoft.AccountSystem.Razor.Runtime" Version="1.1.1" />
-    <PackageReference Include="Microsoft.AccountSystem.Routing" Version="1.1.1" />
-    <PackageReference Include="Microsoft.AccountSystem.Server.IISIntegration" Version="1.1.1" />
-    <PackageReference Include="Microsoft.AccountSystem.Server.IISIntegration.Tools" Version="1.1.0-preview4-final" />
-    <PackageReference Include="Microsoft.AccountSystem.Server.Kestrel" Version="1.1.1" />
-    <PackageReference Include="Microsoft.AccountSystem.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration.Tools" Version="1.1.0-preview4-final" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
@@ -54,8 +54,8 @@
     <PackageReference Include="OrangeJetpack.Localization" Version="2.0.0-beta-0008" />
     <PackageReference Include="OrangeJetpack.Localization.Mvc" Version="2.0.0-beta-0004" />
     <PackageReference Include="Telerik.UI.for.AspNet.Core.Trial" Version="2016.3.1028" />
-    <PackageReference Include="Microsoft.AccountSystem.Authentication.JwtBearer" Version="1.1.1" />
-    <PackageReference Include="Microsoft.AccountSystem.Cors" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="1.1.1" />
   </ItemGroup>
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">

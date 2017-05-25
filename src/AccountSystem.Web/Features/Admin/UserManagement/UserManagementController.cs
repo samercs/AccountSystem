@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 using Kendo.Mvc.Extensions;
 using Kendo.Mvc.UI;
-using Microsoft.AccountSystem.Authorization;
-using Microsoft.AccountSystem.Identity;
-using Microsoft.AccountSystem.Identity.EntityFrameworkCore;
-using Microsoft.AccountSystem.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 using AccountSystem.Services.Identity;
 using AccountSystem.Web.Core.Services;
 using AccountSystem.Web.Features.Admin.UserManagement.Models;

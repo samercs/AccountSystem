@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using Microsoft.AccountSystem.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using OrangeJetpack.Regionalization.Models;
 
 namespace AccountSystem.Web.Features.Shared

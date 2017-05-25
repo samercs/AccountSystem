@@ -1,5 +1,5 @@
-using Microsoft.AccountSystem.Authorization;
-using Microsoft.AccountSystem.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using AccountSystem.Web.Core.Services;
 using AccountSystem.Web.Features.Shared;
 

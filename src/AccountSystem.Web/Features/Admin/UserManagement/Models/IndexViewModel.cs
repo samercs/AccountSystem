@@ -1,6 +1,6 @@
 using System;
 using Humanizer;
-using Microsoft.AccountSystem.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 using Identity = AccountSystem.Core.Identity;

@@ -1,11 +1,11 @@
-using Microsoft.AccountSystem.Mvc;
-using Microsoft.AccountSystem.Mvc.ModelBinding;
-using Microsoft.AccountSystem.Mvc.Razor;
-using Microsoft.AccountSystem.Mvc.Rendering;
-using Microsoft.AccountSystem.Mvc.ViewFeatures;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using System;
 using System.IO;
-using Microsoft.AccountSystem.Mvc.ViewEngines;
+using Microsoft.AspNetCore.Mvc.ViewEngines;
 
 namespace OrangeJetpack.Core.Web.Utilities
 {

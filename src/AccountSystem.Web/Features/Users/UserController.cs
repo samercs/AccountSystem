@@ -1,8 +1,8 @@
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AccountSystem.Authorization;
-using Microsoft.AccountSystem.Identity;
-using Microsoft.AccountSystem.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using OrangeJetpack.Services.Client.Messaging;
 using OrangeJetpack.Services.Client.Models;

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AccountSystem.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using OrangeJetpack.Regionalization;
 
 namespace AccountSystem.Web.Features.API.Country

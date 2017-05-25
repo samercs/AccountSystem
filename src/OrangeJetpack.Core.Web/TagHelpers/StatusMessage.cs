@@ -1,8 +1,8 @@
 using System;
 using System.IO;
 using System.Text.Encodings.Web;
-using Microsoft.AccountSystem.Mvc.Rendering;
-using Microsoft.AccountSystem.Razor.TagHelpers;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 using OrangeJetpack.Core.Web.UI;
 
 namespace OrangeJetpack.Core.Web.TagHelpers

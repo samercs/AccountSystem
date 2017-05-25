@@ -1,6 +1,6 @@
 using System;
-using Microsoft.AccountSystem.Builder;
-using Microsoft.AccountSystem.Http;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using AccountSystem.Web.Core.Middleware;
 
 namespace AccountSystem.Web.Core.Extensions

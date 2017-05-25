@@ -1,5 +1,5 @@
-using Microsoft.AccountSystem.Http;
-using Microsoft.AccountSystem.WebUtilities;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

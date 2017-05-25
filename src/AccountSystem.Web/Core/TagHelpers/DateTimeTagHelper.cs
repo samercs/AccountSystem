@@ -1,6 +1,6 @@
-using Microsoft.AccountSystem.Mvc.Rendering;
-using Microsoft.AccountSystem.Mvc.ViewFeatures;
-using Microsoft.AccountSystem.Razor.TagHelpers;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 using System;
 
 namespace AccountSystem.Web.Core.TagHelpers

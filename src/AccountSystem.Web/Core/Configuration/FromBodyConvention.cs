@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
-using Microsoft.AccountSystem.Mvc.ApplicationModels;
-using Microsoft.AccountSystem.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using AccountSystem.Web.Features.Shared;
 
 namespace AccountSystem.Web.Core.Configuration

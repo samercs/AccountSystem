@@ -1,4 +1,4 @@
-using Microsoft.AccountSystem.Builder;
+using Microsoft.AspNetCore.Builder;
 using AccountSystem.Web.Core.Middleware;
 
 namespace AccountSystem.Web.Core.Extensions

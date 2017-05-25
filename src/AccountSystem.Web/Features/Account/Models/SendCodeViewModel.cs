@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Microsoft.AccountSystem.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace AccountSystem.Web.Features.Account.Models
 {

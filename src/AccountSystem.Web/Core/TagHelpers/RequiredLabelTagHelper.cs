@@ -1,5 +1,5 @@
-using Microsoft.AccountSystem.Mvc.ViewFeatures;
-using Microsoft.AccountSystem.Razor.TagHelpers;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace AccountSystem.Web.Core.TagHelpers
 {

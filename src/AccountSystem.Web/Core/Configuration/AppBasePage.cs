@@ -1,5 +1,5 @@
-using Microsoft.AccountSystem.Mvc.Razor;
-using Microsoft.AccountSystem.Mvc.ViewFeatures;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace AccountSystem.Web.Core.Configuration
 {

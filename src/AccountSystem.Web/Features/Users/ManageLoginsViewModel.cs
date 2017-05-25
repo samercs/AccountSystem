@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AccountSystem.Http.Authentication;
-using Microsoft.AccountSystem.Identity;
+using Microsoft.AspNetCore.Http.Authentication;
+using Microsoft.AspNetCore.Identity;
 
 namespace AccountSystem.Web.Models.ManageViewModels
 {

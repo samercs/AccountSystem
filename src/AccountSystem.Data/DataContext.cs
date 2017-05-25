@@ -1,4 +1,4 @@
-using Microsoft.AccountSystem.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using AccountSystem.Entities;
 using System;

@@ -1,10 +1,10 @@
 using System;
-using Microsoft.AccountSystem.Authorization;
-using Microsoft.AccountSystem.Http;
-using Microsoft.AccountSystem.Identity;
-using Microsoft.AccountSystem.Mvc;
-using Microsoft.AccountSystem.Mvc.Rendering;
-using Microsoft.AccountSystem.Mvc.Routing;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using AccountSystem.Web.Core.Configuration;
@@ -16,7 +16,7 @@ using OrangeJetpack.Core.Web.UI;
 using OrangeJetpack.Core.Web.Utilities;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AccountSystem.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using AccountSystem.Services.Identity;
 using OrangeJetpack.Core.Security;
@@ -34,7 +34,7 @@ namespace AccountSystem.Web.Features.Account
         private readonly IMessageService _messageService;
         private readonly UserManager<Entities.User> _userManager;
         private readonly SignInManager<Entities.User> _signInManager;
-        
+
         private readonly ILogger _logger;
 
         public AccountController(
@@ -63,7 +63,7 @@ namespace AccountSystem.Web.Features.Account
                 PhoneNumberViewModel = new PhoneNumberViewModel
                 {
                     Countries = coutries,
-                    PhoneCountryCode = "+965"
+                    PhoneCountryCode = "+962"
                 }
             };
 
@@ -307,7 +307,7 @@ namespace AccountSystem.Web.Features.Account
             var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
             if (!result.Succeeded)
             {
-                SetStatusMessage("We're sorry, but we were unable to change your password. Please be sure you enter your current password correctly and try again.",StatusMessageType.Error);
+                SetStatusMessage("We're sorry, but we were unable to change your password. Please be sure you enter your current password correctly and try again.", StatusMessageType.Error);
                 return View(model);
             }
 
